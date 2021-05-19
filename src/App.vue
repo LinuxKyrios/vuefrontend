@@ -1,18 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- Start section home -->
+  <div id="home">
+    <!-- Navigation -->
+    <nav class="navbar mavbar-expand-md navar-dark fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="assets/LOGO.jpg" alt="LOGO"/>
+      </a>
+      <button class="navbar-toogler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+      </div>
+
+    </nav>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+
+
 }
 </script>
 
