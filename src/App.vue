@@ -4,9 +4,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="assets/LOGO.jpg" alt="LOGO"/>
+        <img src="assets/logo.jpg" alt="LOGO" width="150" height="60"/>
       </a>
-      <button class="navbar-toogler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -250,4 +250,3 @@ footer a:hover, footer p, footer h3{
   transform: translateZ(0);
   will-change: transform;
 }
-</style>
