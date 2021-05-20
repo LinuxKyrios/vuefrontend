@@ -42,9 +42,14 @@
       <h1>First Vue Project with enhanced frontend</h1>
       <h3>Project with enhanced backend will be created in the close future</h3>
       <a class="btn btn-outline-dark btn-lg" href="#resource">Load for more!</a>
+      <div class="test rounded-circle"></div>
     </div>
   </div>
+
 <!-- End home section -->
+  <!-- Start section Distros -->
+
+
 </template>
 
 <script>
@@ -249,4 +254,10 @@ footer a:hover, footer p, footer h3{
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   will-change: transform;
+}
+
+.test {
+  width: 350px;
+  height: 320px;
+  background-color: yellow;
 }
