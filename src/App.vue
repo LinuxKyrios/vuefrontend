@@ -1,10 +1,11 @@
 <template>
   <!-- Start section home -->
+  <div id="all">
   <div id="home">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="assets/logo.jpg" alt="LOGO" width="150" height="60"/>
+        <img src="assets/logo.jpg" alt="LOGO" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
@@ -15,16 +16,16 @@
             <a href="#home" class="nav-link">Strona główna</a>
           </li>
           <li class="nav-item">
-            <a href="#distros" class="nav-link">Dystrybucje</a>
+            <a href="#course" class="nav-link">Kurs</a>
           </li>
           <li class="nav-item">
-            <a href="#features" class="nav-link">Możliwości</a>
+            <a href="#features" class="nav-link">Możliwosci</a>
           </li>
           <li class="nav-item">
             <a href="#resources" class="nav-link">Zasoby</a>
           </li>
           <li class="nav-item">
-            <a href="#bootstrap" class="nav-link">Bootstrap</a>
+            <a href="#clients" class="nav-link">Klienci</a>
           </li>
           <li class="nav-item">
             <a href="#contact" class="nav-link">Kontakt</a>
@@ -34,17 +35,32 @@
     </nav>
     <!--End navigation-->
     <div class="landing">
-      <div class="come-wrap">
+      <div class="home-wrap">
         <div class="home-inner"></div>
       </div>
     </div>
     <div class="text-center caption">
       <h1>First Vue Project with enhanced frontend</h1>
       <h3>Project with enhanced backend will be created in the close future</h3>
-      <a class="btn btn-outline-dark btn-lg" href="#resource">Load for more!</a>
+      <a class="btn btn-outline-dark btn-lg" href="#course">Ask for more!</a>
     </div>
   </div>
-<!-- End home section -->
+
+  <!-- End section home -->
+  <div id="course">
+    <div class="col-12 text-center">
+      <p>See more about FreeeBSD - the famous Unix distribution</p>
+      <a class="btn btn-secondary btn-md"
+         href="https://en.wikipedia.org/wiki/FreeBSD" target="_blank">
+        Redirect to page about FreeBSD
+      </a>
+    </div>
+  </div>
+
+
+
+
+  </div>
 </template>
 
 <script>
@@ -250,3 +266,11 @@ footer a:hover, footer p, footer h3{
   transform: translateZ(0);
   will-change: transform;
 }
+
+.test {
+  width: 350px;
+  height: 320px;
+  background-color: yellow;
+}
+
+</style>
