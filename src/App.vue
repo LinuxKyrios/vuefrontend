@@ -2,7 +2,7 @@
   <!-- Start section home -->
   <div id="home">
     <!-- Navigation -->
-    <nav class="navbar mavbar-expand-md navar-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
         <img src="assets/LOGO.jpg" alt="LOGO"/>
       </a>
@@ -57,12 +57,197 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/* General rules */
+/* ... */
+body {
+  overflow-x: hidden;
+  background-color: lightgray;
+
+}
+
+/* Navigation */
+.navbar {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: black!important;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  height: 1.8rem;
+}
+.navbar-nav li{
+  padding-right: 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: 0.6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: lime;
+}
+
+/* Landing */
+
+.home-inner{
+  background-image: url(assets/Slider.jpg);
+  background-size: contain;
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
+  color: black;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+  color: lightgray;
+}
+
+.caption h3 {
+  padding-bottom: 1rem;
+  color: darkgray;
+}
+
+/* Course */
+#course {
+  background-color: lightgray;
+}
+
+/* Features */
+.jumbotron {
+  color: black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.jumbotron .line{
+  margin-bottom: 0;
+}
+
+/* Clients */
+
+.client {
+  border-radius: 50%;
+  width: 80%;
+  max-width: 80%;
+}
+
+.blockquote {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer, footer a {
+  background-color: lightgray;
+  color: white;
+
+}
+
+footer img {
+  height: 2rem;
+  margin: 1.5rem 0;
+}
+
+footer a:hover, footer p, footer h3{
+  color: black;
+}
+
+/* Own @media rules */
+@media only screen and(max-width: 768px) {
+  .client {
+    width: 50%;
+    max-width: 30vw;
+  }
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/*--- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+/*--- Fix for Fixed Navbar jumping on scroll --*/
+.fixed-top  {
+  -webkit-backface-visibility: hidden;
+}
+
+/*--- Fixed Landing Page Section --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+/*--- iOS Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999!important;
+}
+.fixed {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
 }
 </style>
