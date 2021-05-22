@@ -47,6 +47,7 @@
   </div>
 
   <!-- End section home -->
+  <!-- Start section course -->
   <div id="course">
     <div class="col-12 text-center">
       <p>See more about FreeeBSD - the famous Unix distribution</p>
@@ -56,7 +57,56 @@
       </a>
     </div>
   </div>
+    <!-- Start section features -->
+    <div id="features">
+      <div class="jumbotron text-center">
+        <h2>Best opportunities to learn about the following:</h2>
+        <ul class="features-list">
+          <li>Creating HTML/CSS layouts</li>
+          <li>UX/UI design</li>
+          <li>Mastering JavaScript</li>
+          <li>Learning Vue, Angular and React in the latest version</li>
+          <li>Master the administrative aspects of the Unix-like system family</li>
+        </ul>
+        <hr class="line">
+      </div>
+    </div>
+    <!-- End section FEATURES -->
+    <!-- Start section resources -->
+    <div id="resources">
+      <div class="jumbotron">
+        <div class="narrow">
+          <div class="col-12">
+            <h3 class="heading text-center">Resources:</h3>
+          </div>
 
+          <div class="row text-center">
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fab fa-html5 fa-6x"></i>
+                <h3>Cecha 1 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit beatae odit a natus doloremque, fugit ducimus nobis? Harum enim, quo officia, atque totam nulla optio quisquam placeat dignissimos labore incidunt?</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fab fa-css3 fa-6x"></i>
+                <h3>Cecha 2 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit beatae odit a natus doloremque, fugit ducimus nobis? Harum enim, quo officia, atque totam nulla optio quisquam placeat dignissimos labore incidunt?</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="resource">
+                <i class="fab fa-js-square fa-6x"></i>
+                <h3>Cecha 3 </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit beatae odit a natus doloremque, fugit ducimus nobis? Harum enim, quo officia, atque totam nulla optio quisquam placeat dignissimos labore incidunt?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End section resources -->
 
 
 
