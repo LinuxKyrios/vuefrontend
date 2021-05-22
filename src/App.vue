@@ -5,7 +5,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
-        <img src="assets/logo.jpg" alt="LOGO" />
+        <img src="assets/logo.png" alt="LOGO" />
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
@@ -86,29 +86,29 @@ body {
   text-transform: uppercase;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  background-color: black!important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
   font-weight: bold;
 }
 
 .navbar-brand img {
   height: 1.8rem;
 }
-.navbar-nav li{
+.navbar-nav li {
   padding-right: 0.6rem;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-top: 0.6rem;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .nav-link:hover {
   color: lime;
 }
 
 /* Landing */
 
-.home-inner{
+.home-inner {
   background-image: url(assets/Slider.jpg);
   background-size: contain;
 }
@@ -152,7 +152,7 @@ body {
   list-style: none;
 }
 
-.jumbotron .line{
+.jumbotron .line {
   margin-bottom: 0;
 }
 
